@@ -19,10 +19,11 @@ Pages and component
 .The Appbar component is in component 
 
 Library:
-.npm install @mui/material @mui/styled-engine-sc styled-components
 • Run npm install
 • Run npm start
 • Open http://localhost:3000/ URL. display diviceType
+.npm install @mui/material @mui/styled-engine-sc styled-components
+
 
 ## Available Scripts
 
