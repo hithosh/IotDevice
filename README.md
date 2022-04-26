@@ -25,7 +25,8 @@ Run npm install
 Run npm start 
 Open http://localhost:3000/ URL. display peoples page
 
-
+library:
+npm install @mui/material @emotion/react @emotion/styled
 
 ## Available Scripts
 
