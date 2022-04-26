@@ -11,7 +11,7 @@ and API requests require an Authorization header with the Bearer value “ade749
 
 Display all the deviceType info in the card grid.
 
-• Select deviceType by next 10 records display.
+• Select deviceType by drop down methode.
 
 Pages and component
 
