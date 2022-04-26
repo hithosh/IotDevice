@@ -1,33 +1,26 @@
-**Overview**
-The project is to create a dashboard for single user interface where  the data is populate from api .
+Overview
+   This Project populates data from the Vstech testAPI. It contains IOT device information like serial number,name of the device, connection status, etc.
 
-It contains deviceTypeinfo and status,connectionStatus and render the group data  based on device Type
-**Features**
-• Load groupdata based on deviceType information -
-
-Get all the information from  API (endpoint https://vstechtest.azurewebsites.net/api/GetData) 
-
-and API requests require an Authorization header with the Bearer value “ade74927-f3df-4718-8f85-d10bab443b1c”.
-
-Display all the deviceType info in the card grid.
-
-• Select deviceType by drop down methode.
+Features
+DeviceType - 
+ Get all the Deviceinformation from vstech Test API(endpoint vstechtest.azurewebsites.net). Display all the people's info in the card grid.
+List all device - Based device type get all device API(endpoint http://vstechtest.azurewebsites.net) 
+Total device- Display total device count.
+No of online device - Display no of online device based on connection status.
+No of failed device - Display no of failed device based on status.
 
 Pages and component
+Dashboard page has App bar tittle of the page.
+Select menu display all the device type,Display device information in card grid.
 
-• The Dashboard page has card grid view, drop down.
-.The Appbar component is in component 
+API
+ VSTech- Using this test API data loaded in screen. 
+ API Reference  vstechtest.azurewebsites.net
+How to run
+Run npm install 
+Run npm start 
+Open http://localhost:3000/ URL. display peoples page
 
-Library:
-• Run npm install
-
-
-• Run npm start
-
-
-• Open http://localhost:3000/ URL. display diviceType
-
-.npm install @mui/material @mui/styled-engine-sc styled-components
 
 
 ## Available Scripts
