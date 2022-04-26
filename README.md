@@ -1,13 +1,20 @@
 **Overview**
-The project is to create a dashboard for single user interface where  the data is populate from api . 
+The project is to create a dashboard for single user interface where  the data is populate from api .
+
 It contains deviceTypeinfo and status,connectionStatus and render the group data  based on device Type
 **Features**
 • Load groupdata based on deviceType information -
+
 Get all the information from  API (endpoint https://vstechtest.azurewebsites.net/api/GetData) 
+
 and API requests require an Authorization header with the Bearer value “ade74927-f3df-4718-8f85-d10bab443b1c”.
+
 Display all the deviceType info in the card grid.
+
 • Select deviceType by next 10 records display.
+
 Pages and component
+
 • The Dashboard page has card grid view, drop down.
 .The Appbar component is in component 
 
