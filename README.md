@@ -1,19 +1,23 @@
-Overview
-   This Project populates data from the Vstech testAPI. It contains IOT device information like serial number,name of the device, connection status, etc.
+**Overview**
+   This Project populates data from the Vstech testAPI. 
+   It contains IOT device information like serial number,
+   name of the device, connection status, etc.
 
-Features
+**Features**
 DeviceType - 
- Get all the Deviceinformation from vstech Test API(endpoint vstechtest.azurewebsites.net). Display all the people's info in the card grid.
+ Get all the Deviceinformation from vstech Test API(endpoint vstechtest.azurewebsites.net).
+ 
+ Display all the people's info in the card grid.
 List all device - Based device type get all device API(endpoint http://vstechtest.azurewebsites.net) 
 Total device- Display total device count.
 No of online device - Display no of online device based on connection status.
 No of failed device - Display no of failed device based on status.
 
-Pages and component
+**Pages and component**
 Dashboard page has App bar tittle of the page.
 Select menu display all the device type,Display device information in card grid.
 
-API
+**API**
  VSTech- Using this test API data loaded in screen. 
  API Reference  vstechtest.azurewebsites.net
 How to run
