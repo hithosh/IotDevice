@@ -20,8 +20,13 @@ Pages and component
 
 Library:
 • Run npm install
+
+
 • Run npm start
+
+
 • Open http://localhost:3000/ URL. display diviceType
+
 .npm install @mui/material @mui/styled-engine-sc styled-components
 
 
